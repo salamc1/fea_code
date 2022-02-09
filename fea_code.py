@@ -4,6 +4,7 @@ import sympy as sp
 from dataclasses import dataclass
 from sympy import init_printing
 
+
 @dataclass
 class SymbolicElement:
     dimension: int
